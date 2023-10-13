@@ -33,4 +33,4 @@ mv ./*err ./output
 dt=$(date "+%Y%m%d%H%M%S")
 mv ./output ./output-$dt
 rm -r ./work
-rm -r ./cache
+#rm -r ./cache
