@@ -29,9 +29,9 @@ sbatch ./daytona_wnv.sh
 All results can be found in the directory /output.
 
 ### Note
-1: For first running the pipeline, if there are no index files (*.fai, *.sa, *.pac, *.bwt, *.ann, *.amb) in the folder "reference", you need run the indexing command to generate 5 index files in the folder "reference": 
+1. For first running the pipeline, if there are no index files (*.fai, *.sa, *.pac, *.bwt, *.ann, *.amb) in the folder "reference", you need run the indexing command to generate 5 index files in the folder "reference": 
 ```bash
 bwa index reference.fasta
 ```
     
-2: Default python is v3.6 in HPG, while the pipeline requires at least python 3.7. Do not directly use "module load python" in HPG terminal, as the loaded python misses some modules, such as "site". The recommanded way is to install a higher python version by conda.  
+2. Default python is v3.6 in HPG, while the pipeline requires at least python 3.7. Do not directly use "module load python" in HPG terminal, as the loaded python misses some modules, such as "site". The recommanded way is to install a higher python version by conda.  
