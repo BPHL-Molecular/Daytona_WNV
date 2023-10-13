@@ -29,7 +29,7 @@ Singularity/Apptainer is also required. The detail of installation can be found 
 All results can be found in the directory /output.
 
 ### Note
-1: For first running the pipeline, to run the indexing command to generate 5 index files in the folder "reference" if there are no index files (*.fai, *.sa, *.pac, *.bwt, *.ann, *.amb) in the folder "reference" 
+1: For first running the pipeline, if there are no index files (*.fai, *.sa, *.pac, *.bwt, *.ann, *.amb) in the folder "reference", you need run the indexing command to generate 5 index files in the folder "reference": 
     ```bash
     bwa index reference.fasta 
     ```
