@@ -12,9 +12,12 @@ Python v3.7 or higher  is required.
 Singularity/Apptainer is also required. The detail of installation can be found in https://singularity-tutorial.github.io/01-installation/.
 
 ## Recommended conda environment installation
-   $conda create -n WNV -c conda-forge python=3.10
-   $conda activate WNV
-
+   ```bash
+   conda create -n WNV -c conda-forge python=3.10
+   ```
+   ```bash
+   conda activate WNV
+   ```
 ## How to run
 1. put your data files into directory /fastqs. Your data file's name should look like "JBS22002292_1.fastq.gz", "JBS22002292_2.fastq.gz". Test data can be found in the directory /fastqs/testdata. If you want to use the test data, copy them to the directory /fastqs.
 2. open file "parames.yaml", set the parameters. 
