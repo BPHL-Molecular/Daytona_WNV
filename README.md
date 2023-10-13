@@ -21,13 +21,16 @@ Singularity/Apptainer is also required. The detail of installation can be found 
 ## How to run
 1. put your data files into directory /fastqs. Your data file's name should look like "JBS22002292_1.fastq.gz", "JBS22002292_2.fastq.gz". Test data can be found in the directory /fastqs/testdata. If you want to use the test data, copy them to the directory /fastqs.
 2. open file "parames.yaml", set the parameters. 
-3. get into the top directory of the pipeline, run "sbatch ./daytona_wnv.sh"
-
+3. get into the top directory of the pipeline, run
+   ```bash
+   sbatch ./daytona_wnv.sh
+   ```
 ## Results
 All results can be found in the directory /output.
 
 
 ### Note1: For first running the pipeline, to run the indexing command to generate 5 index files in the folder "reference" if there are no index files (*.fai, *.sa, *.pac, *.bwt, *.ann, *.amb) in the folder "reference" 
-                $ bwa index reference.fasta 
-
+                ```bash
+                bwa index reference.fasta 
+                ```
 ### Note2: Default python is v3.6 in HPG, while the pipeline requires at least python 3.7. Do not directly use "module load python" in HPG terminal, as the loaded python misses some modules, such as "site". The recommanded way is to install a higher python version by conda.  
