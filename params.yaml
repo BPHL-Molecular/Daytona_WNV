@@ -1,0 +1,7 @@
+# The parameters "input", "output", "reference" and "primer" are the absolute paths. Do not include the "/" at the end of the paths.
+input          : "/blue/bphl-florida/dongyibo/Dev_Daytona_WNV/Daytona_WNV/fastqs"
+output    : "/blue/bphl-florida/dongyibo/Dev_Daytona_WNV/Daytona_WNV/output"
+reference      : "/blue/bphl-florida/dongyibo/Dev_Daytona_WNV/Daytona_WNV/reference"
+primer    : "/blue/bphl-florida/dongyibo/Dev_Daytona_WNV/Daytona_WNV/primers"
+
+
