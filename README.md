@@ -22,9 +22,9 @@ Singularity/Apptainer is also required. The detail of installation can be found 
 1. put your data files into directory /fastqs. Your data file's name should look like "JBS22002292_1.fastq.gz", "JBS22002292_2.fastq.gz". Test data can be found in the directory /fastqs/testdata. If you want to use the test data, copy them to the directory /fastqs.
 2. open file "parames.yaml", set the parameters. 
 3. get into the top directory of the pipeline, run
-   ```bash
-   sbatch ./daytona_wnv.sh
-   ```
+```bash
+sbatch ./daytona_wnv.sh
+```
 ## Results
 All results can be found in the directory /output.
 
