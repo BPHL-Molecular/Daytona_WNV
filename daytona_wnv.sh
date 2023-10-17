@@ -3,11 +3,11 @@
 #SBATCH --qos=bphl-umbrella
 #SBATCH --job-name=WNV
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=25
-#SBATCH --mem=200gb
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=400gb
 #SBATCH --output=wnv.%j.out
 #SBATCH --error=wnv.%j.err
-#SBATCH --time=3-00
+#SBATCH --time=48:00:00
 
 module load nextflow
 module load apptainer
